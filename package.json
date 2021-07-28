@@ -1,0 +1,27 @@
+{
+  "name": "api-poe",
+  "version": "1.0.0",
+  "description": "api poe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fatimata-dev/Api-poe.git"
+  },
+  "author": "Fatimata",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fatimata-dev/Api-poe/issues"
+  },
+  "homepage": "https://github.com/Fatimata-dev/Api-poe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.12",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0"
+  }
+}
